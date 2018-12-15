@@ -39,6 +39,12 @@ The coffee package has five functions suited for this purpose:
 ### 3) install_github("PHP-2560/final-project-coffee/coffee")
 ### 4) library(coffee)
 
+The first time a user uses the package, they will be asked to authenticate. They should enter the number 1 to agree.
+
+```{r, out.width = "600px", echo=FALSE}
+knitr::include_graphics("auth.png")
+```
+
 ## Scraping Twitter Data 
 
 ### 1) get_tweets
