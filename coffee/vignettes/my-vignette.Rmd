@@ -33,6 +33,12 @@ The coffee package has five functions suited for this purpose:
   * make_bar_graph()
   * make_cat_graph() 
 
+##Package Installation 
+### 1) install.packages("devtools")
+### 2) library(devtools)
+### 3) install_github("PHP-2560/final-project-coffee/coffee")
+### 4) library(coffee)
+
 ## Scraping Twitter Data 
 
 ### 1) get_tweets
