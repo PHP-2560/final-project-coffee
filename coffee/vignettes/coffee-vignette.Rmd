@@ -34,10 +34,10 @@ The coffee package has five functions suited for this purpose:
   * make_cat_graph() 
 
 ##Package Installation 
-### 1) install.packages("devtools")
-### 2) library(devtools)
-### 3) install_github("PHP-2560/final-project-coffee/coffee")
-### 4) library(coffee)
+1) install.packages("devtools")
+2) library(devtools)
+3) install_github("PHP-2560/final-project-coffee/coffee")
+4) library(coffee)
 
 The first time a user uses the package, they will be asked to authenticate. They should enter the number 1 to agree.
 
@@ -80,7 +80,14 @@ A wordcloud is used to highlight popular words based on the frequency of use and
 
 This function allows users to make a word cloud given a .csv file from the clean_tweets() function. 
 
-The make_wordcloud() function takes in two arguments, the clean .csv file and the number of words included in the word cloud. 
+The make_wordcloud() function takes in two arguments, the clean .csv file and the number of words included in the word cloud.
+
+*In the example image below, the user has cleaned a coffee_tweets.csv and this is the output file.*
+
+```make_wordcloud("clean_coffee_tweets.csv")```
+```{r, out.width = "600px", echo=FALSE}
+knitr::include_graphics("coffeewordcloud.png")
+```
 
 ### 4) make_bar_graph
 This bar graph shows how many words in the tweets are "positive" and how many are "negative" from the given .csv file 
