@@ -1,0 +1,18 @@
+---
+title: "Sentiment Analysis of Coffee Tweets"
+author: "Erin Bugbee, Sarah Fringer, Amy Liu"
+date: "12/17/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is the Sentiment Analysis of Coffee Tweets Shiny App for PHP 2560 by Erin Bugbee, Sarah Fringer, and Amy Liu.
+
+The link to our video explaining our App is [link]().
+
+When first using the app, you may be asked to authenticate in order to access the tweets. Respond with a "1" to denote "Yes".
+
+Sometimes, an error may occur stating "Warning: Error in check_twitter_oauth: OAuth authentication error". This is due to the interaction with the Twitter API for security reasons and is not a problem with the application. Close R and wait a few minutes, then try again.
